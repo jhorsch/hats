@@ -1,4 +1,8 @@
 Zzz::Application.routes.draw do
+
+
+  root :to => "hats#new"
+
   get "hats/new"
   get "hats/show"
   # The priority is based upon order of creation: first created -> highest priority.
